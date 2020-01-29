@@ -1,4 +1,3 @@
-// use gstreamer_video;
 use gstreamer::{self, ElementFactory, GstBinExtManual, GstObjectExt};
 
 fn make_element(element_name: &str, name: &str) -> gstreamer::Element {
